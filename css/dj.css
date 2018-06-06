@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:
+    linear-gradient(
+      to right,
+      rgb(255,159,0),
+      rgb(255,215,153),
+      rgb(255,159,0)
+    );
+}
+.headerbanner {
+    height: 40vh;
+    background-size: 100% 100%;
+    background-image: url("../images/djbanner.jpg");
+}
+.topnav {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+  /*background-color: rgb(6,96,68);*/
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: rgb(191,0,0);
+  text-align: center;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.activeanchor {
+  float: right;
+  display: block;
+  color: rgb(0,0,0);
+  text-align: center;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: rgb(248,76,0);
+  border-radius: 10px;
+}
+
+.panel {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+    margin-left: 5%;
+    color: #f2f2f2;
+    padding: 15px 15px;
+    display : none;
+    width: 80%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    background-image:
+    linear-gradient(
+      to right,
+      rgb(248,76,0),
+      rgb(254,159,5),
+      rgb(248,76,0)
+    );
+}
+ul.starbullet {
+    list-style-image: url("../images/starbullet.png");;
+}
